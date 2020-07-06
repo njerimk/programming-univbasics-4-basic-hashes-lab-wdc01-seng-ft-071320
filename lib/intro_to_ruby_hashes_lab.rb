@@ -32,7 +32,7 @@ def id_hash_generator(number)
     balloons: 2,
     pirates: 6
   }
-  puts id
+  puts id_hash_generator
   if id_hash_generator[:id]
     puts id_hash_generator[:id] += number
   else 
