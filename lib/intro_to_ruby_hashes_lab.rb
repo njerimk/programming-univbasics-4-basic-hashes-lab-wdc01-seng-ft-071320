@@ -25,7 +25,7 @@ def pioneer
 end
 
 
-def id_hash_generator(number)
+def id_hash_generator(5)
   # return a hash with a key :id assigned to the provided number
   id_hash_generator=Hash.new
   id_hash_generator={
