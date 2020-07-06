@@ -31,7 +31,9 @@ def id_hash_generator(number)
   if id_hash_generator[:id]
     puts id_hash_generator[:id] += number
   else 
-      puts id_hash_generator[:id] = number 
+    id_hash_generator[:id] = number 
   end
   puts id_hash_generator
 end
+
+id_hash_generator(5)
