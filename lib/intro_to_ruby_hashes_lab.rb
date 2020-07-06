@@ -30,8 +30,9 @@ def id_hash_generator(number)
   id_hash_generator=Hash.new
   id={
     balloons: 2,
-    pirates: 6,
+    pirates: 6
   }
+  puts id
   if id_hash_generator[:id]
     puts id_hash_generator[:id] += number
   else 
