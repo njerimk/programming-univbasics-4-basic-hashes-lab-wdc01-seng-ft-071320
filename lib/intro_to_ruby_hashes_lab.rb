@@ -29,7 +29,7 @@ def id_hash_generator(number)
   # return a hash with a key :id assigned to the provided number
   id_hash_generator=Hash.new
   if id_hash_generator[:id]
-    puts id_hash_generator=id_hash_generator[:id] +=number
+    puts id_hash_generator[:id] += number
   else 
       puts id_hash_generator[:id] = number 
   end
