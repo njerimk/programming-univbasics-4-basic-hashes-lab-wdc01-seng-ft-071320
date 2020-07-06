@@ -37,6 +37,6 @@ def id_hash_generator(number)
   else 
     id_hash_generator[:id] = 5 
   end
-  puts id_hash_generator
+  id_hash_generator
 end
 
