@@ -25,7 +25,7 @@ def pioneer
 end
 
 
-def id_hash_generator(5)
+def id_hash_generator(number)
   # return a hash with a key :id assigned to the provided number
   id_hash_generator=Hash.new
   id_hash_generator={
@@ -33,9 +33,9 @@ def id_hash_generator(5)
     pirates: 6
   }
   if id_hash_generator[:id]
-    puts id_hash_generator[:id] += number
+    puts id_hash_generator[:id] += 5
   else 
-    id_hash_generator[:id] = number 
+    id_hash_generator[:id] = 5 
   end
   puts id_hash_generator
 end
