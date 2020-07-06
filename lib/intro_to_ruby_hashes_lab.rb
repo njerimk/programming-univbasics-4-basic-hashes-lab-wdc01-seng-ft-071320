@@ -28,6 +28,10 @@ end
 def id_hash_generator(number)
   # return a hash with a key :id assigned to the provided number
   id_hash_generator=Hash.new
+  id={
+    balloons: 2,
+    pirates: 6,
+  }
   if id_hash_generator[:id]
     puts id_hash_generator[:id] += number
   else 
