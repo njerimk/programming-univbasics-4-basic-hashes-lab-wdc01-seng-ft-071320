@@ -33,10 +33,12 @@ def id_hash_generator(number)
     pirates: 6
   }
   if id_hash_generator[:id]
-    puts id_hash_generator[:id] += 5
+    puts id_hash_generator[:id] += number
   else 
-    id_hash_generator[:id] = 5 
+    id_hash_generator[:id] = number
   end
   id_hash_generator
 end
+
+id_hash_generator(451)
 
