@@ -40,4 +40,3 @@ def id_hash_generator(number)
   puts id_hash_generator
 end
 
-id_hash_generator(5)
